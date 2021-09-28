@@ -6,10 +6,10 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import lyricsgenius
 
 #----- SPOTIFY AND GENIUS TOKENS ------
-SPOTIFYclientID = "eedecfb44c9a4160aba8f55b18c9230d"
-SPOTIFYclientsecret = "46ab59a2119c4c0fbd6272bc516554a8"
+SPOTIFYclientID = "SpotifyClientID"
+SPOTIFYclientsecret = "SpotifyClientSecret"
 REDIRECTURI = "https://www.google.com"
-GENIUStoken = "WywbmDXksHJO6XeM_tQO26J3IlJpS5fL5sivuCUScCpyeh7tnEVw5wzh6B9w0_6-"
+GENIUStoken = "GeniusToken"
 
 #----- OBTAINING TOKEN DICTIONARY -----
 scope = "user-read-currently-playing" #Spotify scope
