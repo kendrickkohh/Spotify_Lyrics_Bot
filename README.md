@@ -1,5 +1,5 @@
 # Spotify_Lyrics_Bot
-Automates lyrics production for unique Spotify users
+Python program that automates lyrics production for unique Spotify users
 
 For usage,
 1. Ensure you have attained your own Spotify and Lyrics Genius Client ID and Client secrets
