@@ -17,7 +17,8 @@ scope = "user-read-currently-playing" #Spotify scope
 oauth_object = spotipy.SpotifyOAuth(client_id = SPOTIFYclientID, client_secret = SPOTIFYclientsecret,
                                     redirect_uri = REDIRECTURI, scope = scope) #Spotify Oauth class, creating an Oauth object
 
-token_dict = oauth_object.get_cached_token() #Use get_access_token to access token_dict, which goes to REDIRECTURI
+token_dict = oauth_object.get_cached_token() #Use get_access_token() to access token_dict, which goes to REDIRECTURI
+                                             #To remove the error after getting token dictionary, use get_cached_token() instead
 
 token = token_dict['access_token'] #Acquire access token through terminal
 
